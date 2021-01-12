@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+.app__header {
+  height: 80px;
+  justify-self: center;
+  padding: 12px 4px 4px 16px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  background-color: white;
+  color: black;
+  margin: 0px;
+}
+.header__search__container,
+.header__menuItems {
+  display: flex;
+}
+.header__search {
+  flex: 1;
+}
+.header__logo .MuiSvgIcon-root {
+  color: #e60023;
+}
+.header__button {
+  font-weight: 700;
+  height: 48px;
+  display: flex;
+  min-width: 123px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: rgb(17, 17, 17);
+  cursor: pointer;
+}
+.homePage {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.following:hover {
+  background-color: #e1e1e1;
+}
+.following {
+  background-color: white;
+}
+.header__menuItems {
+  flex: 0.15;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menuItem {
+  height: 47px;
+  width: 48px;
+  padding: 4px;
+}
+.header__search__container {
+  background-color: #e1e1e1;
+  border-radius: 50px;
+  height: 48px;
+  padding-left: 10px;
+  width: 100%;
+  align-items: center;
+}
+input {
+  border: none;
+}
+.header__search__container > form {
+  display: flex;
+  flex: 1;
+}
+.header__search__container > form > input {
+  flex: 1;
+  background-color: transparent;
+}
+.header__search__container > form > input:active {
+  outline: none;
+}
+.header__search__container > form > input:focus {
+  outline: none;
+}
+.header__search__container > form > input:hover {
+  outline: none;
+}
+.header__search__container > form > button {
+  display: none;
+}
+/* For giving width to the search container */
+/* .search__icon {
+  flex:5%;
+}
+.search__input {    
+  flex: 85%;
+}
+.select__pins {
+  flex: 10%;
+} */
